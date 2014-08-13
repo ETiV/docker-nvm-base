@@ -1,0 +1,14 @@
+{
+  "name": "node-project",
+  "version": "0.0.0",
+  "description": "N/A",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "N/A",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.8.3"
+  }
+}
