@@ -92,22 +92,22 @@ docker logs -f $(\
     Or you should change the first `3000` to any other value between 1024 and 65535.
 
 You'll see the outputs like this:
-```
-bash: cannot set terminal process group (-1): Inappropriate ioctl for device
-bash: no job control in this shell
-stdin: is not a tty
-Installing node@0.10.28, this may take several minutes...
-######################################################################## 100.0%
-Now using node v0.10.28
-default -> 0.10.28 (-> v0.10.28)
-Install node@0.10.28 finished.
-npm WARN package.json node-project@0.0.0 No repository field.
-npm WARN package.json node-project@0.0.0 No README data
-Server Started ... Access through: http://127.0.0.1:3000/
-Node.js Version: v0.10.28
-0 'Server is alive ... to test, run `curl http://127.1:3000/`'
-... ...
-```
+
+    bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+    bash: no job control in this shell
+    stdin: is not a tty
+    Installing node@0.10.28, this may take several minutes...
+    ######################################################################## 100.0%
+    Now using node v0.10.28
+    default -> 0.10.28 (-> v0.10.28)
+    Install node@0.10.28 finished.
+    npm WARN package.json node-project@0.0.0 No repository field.
+    npm WARN package.json node-project@0.0.0 No README data
+    Server Started ... Access through: http://127.0.0.1:3000/
+    Node.js Version: v0.10.28
+    0 'Server is alive ... to test, run `curl http://127.1:3000/`'
+    ... ...
+
 
 Now you can `curl http://127.0.0.1:3000/` to access the application.
 
